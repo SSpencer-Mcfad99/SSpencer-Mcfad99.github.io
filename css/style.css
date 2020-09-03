@@ -76,12 +76,16 @@
   width: 20%;
 }
 
-.left, .col-l{
+.left{
   float: left;
 }
 
-.right, .col-r {
+.right {
   float: right;
+}
+
+.col-l, .col-r {
+  float: none;
 }
 
 .central {
@@ -191,6 +195,14 @@ nav a {
   font-size: 20px;
 }
 
+.bigList {
+  display: none;
+}
+
+.phoneList {
+  display: block;
+}
+
 /* TABLET STYLES */
 
 @media screen and (min-width: 500px) {
@@ -250,8 +262,23 @@ nav a {
   }
 
   .col-l, .col-r {
-    position: relative;
-    width: 50%
+    width: 50%;
+  }
+
+  .col-l {
+    float: left;
+  }
+
+  .col-r{
+    float: right;
+  }
+
+  .bigList {
+    display: block;
+  }
+
+  .phoneList {
+    display: none;
   }
 }
 
