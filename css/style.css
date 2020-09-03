@@ -84,8 +84,14 @@
   margin: 0;
 }
 
-.col-ext, .col-inner-side, .footer-col-side {
+.col-ext, .footer-col-side {
    display: none;
+}
+
+.col-inner-side {
+  display: flex;
+  width: 10%;
+  height: inherit;
 }
 
 .col, .footer-col-cent {
@@ -135,6 +141,16 @@ nav a {
   padding: 1.25em .3em;
   justify-content: flex-end;
   align-items: center;
+  text-decoration: none;
+}
+
+.homeLink-sm, .aboutLink-sm, .portLink-sm {
+   display: flex;
+   justify-content: center;
+}
+
+.homeLink-lg, .aboutLink-lg, .portLink-lg {
+  display: none;
 }
 
 .homeCap {
@@ -175,7 +191,7 @@ nav a {
     border-radius: 50%;
   }
 
-  .col-ext, .col-inner-side,  .footer-col-side {
+  .col-ext, .footer-col-side {
      display: flex;
      width: 10%;
      height: inherit;
@@ -225,6 +241,14 @@ nav a {
 
   nav a {
     padding: 1.25em .3em;
+  }
+
+  .homeLink-sm, .aboutLink-sm, .portLink-sm {
+     display: none;
+  }
+
+  .homeLink-lg, .aboutLink-lg, .portLink-lg {
+    display: flex;
   }
 
   .homeCap {
