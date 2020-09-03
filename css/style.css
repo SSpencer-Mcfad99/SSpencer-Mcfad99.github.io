@@ -131,7 +131,7 @@
 
 .col-l, .col-r {
   position: relative;
-  width: 50%
+  width: 100%
 }
 
 .bgBlack {
@@ -247,6 +247,11 @@ nav a {
 
   .col, .footer-col-cent, .col-inner-main {
     width: 80%;
+  }
+
+  .col-l, .col-r {
+    position: relative;
+    width: 50%
   }
 }
 
