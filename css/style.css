@@ -53,6 +53,14 @@
   border-radius: 50%;
 }
 
+.thumbnail {
+  position: relative;
+  float: none;
+  width: 90%;
+  left:5%;
+  height: 200px;
+}
+
 .col-side {
   width: 45%;
 }
@@ -68,12 +76,20 @@
   width: 20%;
 }
 
-.left {
+.left, .col-l{
   float: left;
 }
 
-.right {
+.right, .col-r {
   float: right;
+}
+
+.central {
+  text-align: center;
+}
+
+.under {
+  text-decoration: underline;
 }
 
 .row {
@@ -81,6 +97,15 @@
   display: flex;
   flex-direction: row;
   width: 100%;
+  margin: 0;
+}
+
+.row-centered {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  left: 10%;
   margin: 0;
 }
 
@@ -104,6 +129,11 @@
   left: 5%;
 }
 
+.col-l, .col-r {
+  position: relative;
+  width: 50%
+}
+
 .bgBlack {
   background-color: #0B0C10;
   color: #45A29B;
@@ -115,6 +145,10 @@
 
 .bgDarkBlue{
   background-color: #45A29E;
+}
+
+.bgPurple {
+  background-color: #44318D;
 }
 
 .homeWhite {
@@ -191,6 +225,20 @@ nav a {
     border-radius: 50%;
   }
 
+  .thumbnail {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 250px;
+    left: 0;
+    margin: 10px;
+  }
+
+  .al-c {
+    display: flex;
+    align-items: center;
+   }
+
   .col-ext, .footer-col-side {
      display: flex;
      width: 10%;
@@ -219,6 +267,8 @@ nav a {
     justify-content: center;
   }
 
+
+
   .mugshot {
     position: relative;
     width: 100%;
@@ -230,6 +280,11 @@ nav a {
     height: 70%;
     top: 20%;
     border-radius: 50%;
+  }
+
+  .thumbnail {
+    width: 30%;
+    height: 200px;
   }
 
   nav, nav:hover {
