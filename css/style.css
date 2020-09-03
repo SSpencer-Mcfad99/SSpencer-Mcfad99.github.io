@@ -71,9 +71,19 @@
   left: 5%;
 }
 
+.bgBlack {
+  background-color: #0B0C10;
+  color: #45A29B;
+}
+
+.bgGrey {
+  background-color: #1F2833;
+}
+
 .displayed {
   display: flex;
 }
+
 html {
   margin: 0;
 }
@@ -97,7 +107,6 @@ p {
   font-family:serif;
   width: 100%;
 }
-
 
 /* TABLET STYLES */
 
