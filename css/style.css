@@ -84,6 +84,16 @@
   float: right;
 }
 
+.centered {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.mail {
+  width: 100px;
+  height: 100px;
+}
+
 .col-l, .col-r {
   float: none;
 }
@@ -153,6 +163,10 @@
 
 .bgPurple {
   background-color: #44318D;
+}
+
+.bgRed {
+  background-color: #F76C6C;
 }
 
 .homeWhite {
