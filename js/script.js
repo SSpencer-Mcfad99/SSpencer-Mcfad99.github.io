@@ -10,4 +10,8 @@ $(document).ready(function() {
    $('.linkedin').click(function(event) {
       window.location.href = "https://www.linkedin.com/in/sam-spencer-mcfadden-a57a42152/";
    })
+
+   $('.github').click(function(event) {
+      window.location.href = "https://github.com/sspencer-mcfad99";
+   })
 });
