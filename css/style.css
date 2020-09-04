@@ -304,12 +304,20 @@ p, h1, .homeWhite {
   width: 100%;
 }
 
-.caption, .caption-2, .caption-3 {
-  color: #f2f2f2;
-  font-size: 15px;
+.caption-container {
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
+  width: 90%;
+  left: 0;
+  background-color: rgba(0,0,0,0.8);
+  text-align:center;
+}
+
+.caption, .caption-2, .caption-3 {
+  color: #f2f2f2;
+  font-size: 15px;
+  position: relative;
   width: 100%;
   text-align: center;
 }
@@ -317,9 +325,14 @@ p, h1, .homeWhite {
 .iteration, .iteration-2, .iteration-3 {
   color: #f2f2f2;
   font-size: 12px;
+}
+
+.iteration-container {
   padding: 8px 12px;
   position: absolute;
   top: 0;
+  background-color: rgba(0,0,0,0.8);
+  text-align:center;
 }
 
 .dot, .dot-2, .dot-3 {
@@ -416,6 +429,11 @@ input[type=button] {
     width: 70%;
   }
 
+  .caption-container {
+    width: 50%;
+    left: 25%;
+  }
+
   .al-c {
     display: flex;
     align-items: center;
@@ -493,6 +511,11 @@ input[type=button] {
 
   .mobile {
     width: 30%;
+  }
+
+  .caption-container {
+    width: 27.5%;
+    left: 35%;
   }
 
   nav, nav:hover {
