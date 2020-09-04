@@ -300,12 +300,8 @@ p, h1, .homeWhite {
   max-height: 300px;
 }
 
-.pc {
+.pc, .mobile {
   width: 100%;
-}
-
-.mobile {
-  width: 60%;
 }
 
 .caption, .caption-2, .caption-3 {
@@ -416,6 +412,10 @@ input[type=button] {
     margin: 10px;
   }
 
+  .mobile {
+    width: 70%;
+  }
+
   .al-c {
     display: flex;
     align-items: center;
@@ -487,10 +487,14 @@ input[type=button] {
     height: 200px;
   }
 
+  .pc {
+    width: 70%;
+  }
+
   .mobile {
     width: 30%;
   }
-  
+
   nav, nav:hover {
     display: flex;
     flex-direction: row;
