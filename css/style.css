@@ -310,6 +310,10 @@ p, h1, .homeWhite {
   position: relative;
 }
 
+.mobile, .pc {
+  height: 60%;
+}
+
 .caption-container {
   padding: 8px 12px;
   position: absolute;
