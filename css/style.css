@@ -54,6 +54,27 @@
   height:
 }
 
+.top-bot {
+  padding-top: 74px;
+  padding-bottom: 110px;
+}
+
+nav {
+  z-index: 1000;
+  position: fixed;
+  width: 100%;	
+  border: 0;
+  top: 0;	
+}
+
+footer {
+  z-index: 1000;
+  position: fixed;
+  width: 100%;	
+  border: 0;
+  bottom: 0;	
+}
+
 .mugshot {
   position: relative;
   width: 100%;
