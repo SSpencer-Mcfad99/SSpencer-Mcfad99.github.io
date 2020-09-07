@@ -181,7 +181,7 @@
 }
 
 .bgDarkBlue{
-  background-color: #45A29E;
+  background-color: #227F7B;
 }
 
 .bgPurple {
@@ -333,7 +333,7 @@ p, h1, .homeWhite {
   text-align:center;
 }
 
-.caption, .caption-2, .caption-3 {
+.caption {
   color: #f2f2f2;
   font-size: 15px;
   position: relative;
@@ -341,7 +341,7 @@ p, h1, .homeWhite {
   text-align: center;
 }
 
-.iteration, .iteration-2, .iteration-3 {
+.iteration {
   color: #f2f2f2;
   font-size: 12px;
 }
